@@ -2,7 +2,7 @@ import argparse
 import json
 
 from pycg import formats
-from pycg.pycg import CallGraphGenerator
+from pycg.call_graph import CallGraphGenerator
 from pycg.utils.constants import CALL_GRAPH_OP, KEY_ERR_OP
 
 
